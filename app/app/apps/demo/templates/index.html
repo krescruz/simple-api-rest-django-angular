@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
 {% block title %} Django REST framework - Angular - Bootstrap {% endblock title %}
 {% block content %}
-   <div class="container">
+   <div class="container" ng-app="app_demo">
       <div class="panel panel-default">
-          <div class="panel-body">
-            Vista Home
+          <div class="panel-body" ng-controller="homeCtrl">
+           {$ holaMundo $}
           </div>
         </div>
     </div>
